@@ -1,2 +1,3 @@
 # 00-Python
-Source Code Belajar Python
+Kumpulan Source Code Belajar Python dari :
+Sumber: Kelas Terbuka
