@@ -47,7 +47,7 @@ def tampilkanHasil(LUAS, KELILING):
 while True:
     header()
     PANJANG, LEBAR = inputUser()
-    LUAS, KELILING = hitungLuasPP(LEBAR=LEBAR, PANJANG=PANJANG)
+    LUAS, KELILING = hitungLuasKeliling(LEBAR=LEBAR, PANJANG=PANJANG)
     tampilkanHasil(LUAS, KELILING)
     
     isContinue = input('\nApakah lanjut (y/n)? ')
