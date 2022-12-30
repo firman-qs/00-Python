@@ -1,4 +1,6 @@
-
+"""
+docstring
+"""
 #? CASTING  ==> Merubah suatu tipe data kedalam tipe yang lain
 # tipe data: float, int, str, bool
 

@@ -36,6 +36,7 @@ print(a,'==','3','=', hasil)
 
 
 print('\n===== TIDAK SAMA DENGAN (!=) =====')
+print(a,b)
 hasil = a!=b
 print(a,'!=','b','=', hasil)
 hasil = a!=4
@@ -59,10 +60,7 @@ print('nilai x =', x,'dengan id =',id(x),'atau', hex(id(x)))
 print('nilai y =', y,'dengan id =',id(y),'atau', hex(id(y)))
 print('x =', x)
 print('y =', y)
-hasil = x is y
+hasil = x is not y
 print('x is not y =', hasil)
 
-
-
-
-
+print({format(10, '012b')})
