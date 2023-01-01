@@ -40,8 +40,8 @@ print(data_string)
 
 # mengatur lebar
 data_string = f"""Nama\t = "{namaLengkap:>30}"
-NIM\t = "{nomorNIM:>30}"
-Absen\t = "{nomorAbsen:>20}"
+NIM\t = "{nomorNIM:^30}"
+Absen\t = "{nomorAbsen:<20}"
 Offering = "{offering:>10}\""""
 
 bar = " String Multiline ".center(30,"=")
