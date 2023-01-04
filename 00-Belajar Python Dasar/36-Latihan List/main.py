@@ -6,7 +6,6 @@ daftar_buku = []
 while True:
     title = " Perpustakaan ".center(77,"=")
     print(f"""
-
 {title}
 1. Tambahkan buku
 2. Tampilkan Buku
