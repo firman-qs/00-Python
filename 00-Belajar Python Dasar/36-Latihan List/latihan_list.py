@@ -27,7 +27,8 @@ while True:
 {90*"-"}''')
 
         for index, buku in enumerate(daftar_buku):
-            print(f"{index+1}.\t{buku[0].ljust(30)}{buku[1].ljust(30)}{buku[2].ljust(30)}")
+            print(
+                f"{index+1}.\t{buku[0].ljust(30)}{buku[1].ljust(30)}{buku[2].ljust(30)}")
         print(f"{90*'='}")
         print("\n"*1)
 
