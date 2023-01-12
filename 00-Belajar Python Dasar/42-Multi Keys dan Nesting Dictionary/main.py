@@ -29,6 +29,9 @@ data_mahasiswa = {
     "MAH002" : mahasiswa2,
     "MAH003" : mahasiswa3
 }
+print(f"{data_mahasiswa['MAH001']['beasiswa']}")
+
+
 
 print("="*72)
 print("-"*72)
