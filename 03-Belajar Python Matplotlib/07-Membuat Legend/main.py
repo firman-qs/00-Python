@@ -22,18 +22,18 @@ t,y1,y2 = sinusGenerator(1,1,1.6,0)
 # plt.legend(loc=1) # https://matplotlib.org/stable/api/legend_api.html
 
 # cara 3
-plt.plot(t,y1, label='sin(0)')
-plt.plot(t,y2, label='cos(0)')
-plt.legend(loc=1, bbox_to_anchor=(1.1,1.2))
-
-# cara 4
-# plt.figure()
-# ax = plt.subplot(111)
 # plt.plot(t,y1, label='sin(0)')
 # plt.plot(t,y2, label='cos(0)')
-# box = ax.get_position()
-# ax.set_position([box.x0, box.y0, box.width*.9, box.height])
-# plt.legend(loc=2, bbox_to_anchor=(1,1))
+# plt.legend(loc=1, bbox_to_anchor=(0.1,1.2))
+
+# cara 4
+plt.figure()
+ax = plt.subplot(111)
+plt.plot(t,y1, label='sin(0)')
+plt.plot(t,y2, label='cos(0)')
+box = ax.get_position()
+ax.set_position([box.x0, box.y0, box.width*.9, box.height])
+plt.legend(loc=2, bbox_to_anchor=(1,1))
 
 
 # show plot

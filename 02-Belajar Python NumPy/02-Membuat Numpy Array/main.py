@@ -28,3 +28,4 @@ h2 = np.eye(5)
 # display
 
 print(h2)
+print(e)
