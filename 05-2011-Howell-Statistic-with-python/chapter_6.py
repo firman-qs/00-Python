@@ -10,18 +10,16 @@ fontsz = 12
 
 # set vertical line
 for i in range(-5, 8):
-    plt.axvline(mean+i*sdev, color='black', ls='--', lw=.5,
+    plt.axvline(mean+i*sdev, color='yellow', ls='--', lw=.5,
                 label=r'$mean+(i\times std.\ deviasi)$' if i == 0 else None)
 # set x axis range
-plt.axvline(mean, color='green', ls='-', lw=1.5)
-plt.axvline(mean2, color='green', ls='-', lw=1.5)
+plt.axvline(mean, color='blue', ls='-', lw=1.5)
+plt.axvline(mean2, color='red', ls='-', lw=1.5)
 x = np.arange(-5, 65, 1)
 
 # set plot
-plt.plot(x, norm.pdf(x, mean, sdev), color='blue',
-         lw=2, label='Kelas 4')
-plt.plot(x, norm.pdf(x, mean2, sdev2), color='yellow',
-         lw=2, label='Kelas 9')
+plt.plot(x, norm.pdf(x, mean, sdev), color='blue', lw=2, label='Kelas 4')
+plt.plot(x, norm.pdf(x, mean2, sdev2), color='yellow', lw=2, label='Kelas 9')
 
 # set ticks
 plt.xticks([x for x in range(-5, 65, 5)],
